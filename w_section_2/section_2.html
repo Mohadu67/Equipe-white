@@ -23,11 +23,18 @@
             border-radius: 8px;
             box-shadow: 6px 5px rgb(168, 152, 152);
             padding: 10px;
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
+            transform-style: preserve-3d;
+        }
+
+        .participant:hover {
+            transform: rotateY(8deg) rotateX(16deg);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
         }
 
         section ul li img {
             font-size: 16px;
-            width: 300px;
+            width: 250px;
             height: 200px;
             margin: 0 auto;
 
@@ -121,7 +128,7 @@
             </li>
             <li class="participant">
                 <img src="/w_section_2/cheval.jpg" alt="">
-                <h2>Ich</h2>
+                <h2>Hicham</h2>
                 <p>Les projet de Hicham,<br>
                      vite fais bien fais </p>
                 <ul class="listeprojet">
