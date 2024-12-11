@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>section2</title>
+</head>
+
+    <style>
+        .equipe {
+            list-style: none;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            gap: 5%;
+            margin: 8% auto;
+            width: auto;
+        }
+
+        .participant {
+            margin: 5% auto;
+            border: 1px solid black;
+            border-radius: 8px;
+            box-shadow: 6px 5px rgb(168, 152, 152);
+            padding: 10px;
+        }
+
+        section ul li img {
+            font-size: 16px;
+            width: 300px;
+            height: 200px;
+            margin: 0 auto;
+
+        }
+
+        section ul li h2 {
+            border: 0 solid ;
+            background-color: bisque;
+            padding: 10px;
+            margin: 10px auto;
+            text-align: center;
+
+
+        }
+
+
+        section ul li p {
+            text-align: center;
+        }
+
+        @media screen and (max-width: 768px) {
+    .equipe {
+        flex-direction: column; /* Les items passent en colonne */
+        align-items: center; /* Centrer les items */
+    }
+}
+
+    </style>
+
+
+<body>
+
+    <section>
+
+        <ul class="equipe">
+
+            <li class="participant">
+                <img src="/w_section_2/Panthere_noire-1.jpg" alt="">
+                <h2>Moha</h2>
+                <p>Les projet de Moha <br>
+                    jeune entrepreneur qui a les doigt agile</p>
+
+                <ul class="listeprojet">
+                    <li>
+                       <h3>Projet 1</h3>
+                       <p>Explication du projet </p>
+                    </li>
+                    <li>
+                        Projet 2
+                    </li>
+                    <li>
+                        Projet 3
+                    </li>
+                </ul>
+            </li class="participant">
+            <li class="participant">
+                <img src="/w_section_2/panthere-01052020-9-scaled.jpg" alt="">
+                <h2>Alex</h2>
+                <p>Les projet d'Alex sa devise,<br>
+                     rien laisser au hasard</p>
+                <ul class="listeprojet">
+                    <li>
+                        <h3>Projet 1</h3>
+                        <p>Explication du projet</p>
+                    </li>
+                    <li>
+                        Projet 2
+                    </li>
+                    <li>
+                        Projet 3
+                    </li>
+                </ul>
+            </li>
+            <li class="participant">
+                <img src="/w_section_2/zebre-des-plaines-carre.jpg" alt="">
+                <h2>Rayan</h2>
+                <p>Les projet de Rayan, <br>
+                    la pause est autant important que travailler</p>
+                <ul class="listeprojet">
+                    <li>
+                        <h3>Projet 1</h3>
+                        <p>Explication du projet </p>
+                     </li>
+                    <li>
+                        Projet 2
+                    </li>
+                    <li>
+                        Projet 3
+                    </li>
+                </ul>
+            </li>
+            <li class="participant">
+                <img src="/w_section_2/cheval.jpg" alt="">
+                <h2>Ich</h2>
+                <p>Les projet de Hicham,<br>
+                     vite fais bien fais </p>
+                <ul class="listeprojet">
+                    <li>
+                        <h3>Projet 1</h3>
+                        <p>Explication du projet </p>
+                     </li>
+                    <li>
+                        Projet 2
+                    </li>
+                    <li>
+                        Projet 3
+                    </li>
+                </ul>
+            </li>
+            
+        </ul>
+
+
+
+    </section>
+    
+
+</body>
+</html>
